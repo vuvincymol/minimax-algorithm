@@ -1,0 +1,9 @@
+Minimax Algorithm with Alpha-Beta Pruning
+Overview
+This repository implements the Minimax algorithm with Alpha-Beta Pruning for optimal decision-making in two-player, turn-based games. The algorithm efficiently explores the game tree and prunes branches that cannot influence the final decision, significantly improving the performance of the Minimax algorithm.
+
+Minimax Algorithm
+The Minimax algorithm is a decision-making algorithm used in competitive games to choose the best move for the player, assuming the opponent plays optimally. It explores all possible moves, evaluates them, and selects the move that maximizes the player's chances of winning (in the case of the maximizing player) or minimizes the opponent's chances (in the case of the minimizing player).
+
+Alpha-Beta Pruning
+Alpha-Beta Pruning is an optimization technique for the Minimax algorithm. It "prunes" branches of the game tree that do not need to be explored because they cannot influence the final decision. This reduces the number of nodes evaluated, making the algorithm run faster, especially for deeper game trees.
